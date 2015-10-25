@@ -1,7 +1,7 @@
 # CMPE273_Assignment2
 # CRUD Location Service
 
-The location service has the following REST endpoints to store and retrieve locations. All the data must be persisted into MongoDB. For Go application to MongoDB, driver mgo has been used.
+The location service has the following REST endpoints to store and retrieve locations. All the data persists into MongoDB. For Go application to MongoDB, driver mgo has been used.
 
 
 ## Usage
