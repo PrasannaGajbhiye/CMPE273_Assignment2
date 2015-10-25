@@ -12,7 +12,7 @@ The location service has the following REST endpoints to store and retrieve loca
 go get github.com/PrasannaGajbhiye/CMPE273_Assignment2
 ```
 
-Start the  server:
+### Start the  server:
 
 ```
 go clean
@@ -21,15 +21,6 @@ go build
 ```
 
 ### Start the client 
-#### PUSH Request- For creation of new location
-```
-curl -H "Content-Type: application/json" -X POST -d '{"name" : "John Smith","address":"123 Main St","city": "San Francisco","state": "CA","zip":"94113"}' http://localhost:8080/locations
-```
-Following will be the response for the above request:
-```
-{"Id":12345,"Name":"John Smith","Address":"123 Main St","City":"San Francisco","State":"CA","Zip":"94113","Coordinate":{"Lat":37.7917618,"Lng":-122.3943405}}
-```
-
 #### PUSH Request- For creation of new location
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"name" : "John Smith","address":"123 Main St","city": "San Francisco","state": "CA","zip":"94113"}' http://localhost:8080/locations
